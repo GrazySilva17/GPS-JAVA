@@ -1,0 +1,69 @@
+🌟 Tipos Primitivos em Java
+
+### 🔢 `int` → Números inteiros
+
+> **Exemplo:** `int idade = 18;`
+> Armazena números sem vírgula (positivos ou negativos).
+
+🧠 Faixa: -2.147.483.648 a 2.147.483.647
+
+------------------------------------------------------------------------------
+
+### 💸 `double` → Números decimais
+
+> **Exemplo:** `double preco = 2890.99;`
+> Usado pra representar valores com vírgula (no Java é ponto).
+
+🧠 Mais precisão que o `float`.
+
+------------------------------------------------------------------------------
+
+### 🔤 `char` → Um único caractere
+
+> **Exemplo:** `char letra = 'A';`
+> Guarda uma letrinha, número ou símbolo. Sempre entre aspas simples `' '`
+
+------------------------------------------------------------------------------
+
+### ✅ `boolean` → Verdadeiro ou falso
+
+> **Exemplo:** `boolean isEstudante = true;`
+> Só aceita `true` ou `false` (sem aspas!).
+
+------------------------------------------------------------------------------
+
+### 🧍 `byte` → Inteiro bem pequenininho
+
+> **Exemplo:** `byte idade = 25;`
+> Faixa de -128 a 127. Serve pra economizar memória.
+
+------------------------------------------------------------------------------
+
+### 📏 `short` → Inteiro pequeno
+
+> **Exemplo:** `short altura = 160;`
+> Faixa de -32.768 a 32.767
+
+------------------------------------------------------------------------------
+
+### 🏋️ `long` → Inteiro grandão
+
+> **Exemplo:** `long populacao = 8000000000L;`
+> Coloca **`L`** no final do número! Armazena inteiros enormes.
+
+------------------------------------------------------------------------------
+
+### 🌊 `float` → Decimal com menos precisão
+
+> **Exemplo:** `float peso = 56.7f;`
+> Tem que colocar o **`f`** no final. Usa menos memória que o `double`.
+
+------------------------------------------------------------------------------
+
+### 🧵 `String´ → texto completo 
+
+
+> **Exemplo:** `String nome = "Grazyeli";`
+> Serve pra guardar palavras, frases, textos inteiros.
+
+------------------------------------------------------------------------------
