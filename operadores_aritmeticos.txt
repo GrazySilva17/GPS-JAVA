@@ -1,0 +1,59 @@
+
+
+### ➕ **Operadores Aritméticos Básicos**
+
+> **Exemplo:** `int resultado = 10 + 5;`
+> Fazem as operações matemáticas padrão: somar, subtrair, multiplicar, dividir e pegar o resto.
+
+🧠 Operadores:
+
+* `+` → soma
+* `-` → subtração
+* `*` → multiplicação
+* `/` → divisão inteira (sem vírgula)
+* `%` → resto da divisão
+
+---
+
+### 🔄 **Operadores Aritméticos Combinados**
+
+> **Exemplo:** `x += 5;`
+> Atalhos pra economizar linha e parecer mais pró.
+
+🧠 Equivalências:
+
+* `x += y;` → `x = x + y;`
+* `x -= y;` → `x = x - y;`
+* `x *= y;` → `x = x * y;`
+* `x /= y;` → `x = x / y;`
+* `x %= y;` → `x = x % y;`
+
+---
+
+### 📈 **Incremento e Decremento**
+
+> **Exemplo:** `x++;` ou `x--;`
+> Serve pra aumentar ou diminuir 1 unidade de forma rápida.
+
+🧠 Formas:
+
+* `x++;` → incrementa (x = x + 1)
+* `x--;` → decrementa (x = x - 1)
+
+🧐 Também existe a versão “escrita”: `x += 1;` e `x -= 1;`
+
+---
+
+### 🧮 **Precedência de Operadores**
+
+> **Exemplo:** `double r = 3 + 4 * (7 - 5) / 2.0;`
+> Java respeita a ordem das operações, tipo matemática raiz.
+
+🧠 Ordem de execução:
+
+1. `()` parênteses primeiro
+2. `* / %` multiplicação, divisão e resto
+3. `+ -` soma e subtração
+
+📌 Dica: use parênteses sempre que quiser garantir a ordem!
+
