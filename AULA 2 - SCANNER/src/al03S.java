@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class al003 {
+public class al03S {
     public static void main(String[] args) {
         
         double largura = 0;

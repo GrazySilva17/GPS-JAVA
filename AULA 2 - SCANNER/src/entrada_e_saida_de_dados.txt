@@ -1,0 +1,63 @@
+🎤 Entrada de Dados com `Scanner` em Java
+
+### 📦 Importação da classe: 
+import java.util.Scanner;
+> Essa linha importa a classe `Scanner` do pacote `java.util`, que permite ler dados digitados pelo usuário.
+
+-------------------------------------------------------------------------------------------------------------
+
+### 🧪 Criando o Scanner
+Scanner scanner = new Scanner(System.in);
+> Cria um novo "leitor de dados" chamado `scanner` que vai escutar o teclado (o `System.in`).
+
+-------------------------------------------------------------------------------------------------------------
+
+### 🔤 Lendo `String` (texto)
+String nome = scanner.nextLine();
+> Lê uma linha completa (com espaços). Ótimo pra nomes completos, frases, etc.
+
+-------------------------------------------------------------------------------------------------------------
+
+### 🧩 Lendo apenas uma palavra
+String palavra = scanner.next();
+> Lê só a primeira palavra digitada, até o primeiro espaço.
+
+-------------------------------------------------------------------------------------------------------------
+
+### 🔢 Lendo `int` (número inteiro)
+int idade = scanner.nextInt();
+> Lê um número inteiro digitado.
+
+-------------------------------------------------------------------------------------------------------------
+
+### 💰 Lendo `double` (número com vírgula)
+double salario = scanner.nextDouble();
+> Lê um número com vírgula (usa ponto no Java! Ex: 1999.99).
+
+-------------------------------------------------------------------------------------------------------------
+
+### ✅ Lendo `boolean` (true ou false)
+boolean estuda = scanner.nextBoolean();
+> Lê `true` ou `false`. Sem aspas!
+
+-------------------------------------------------------------------------------------------------------------
+
+### 🧹 Fechando o Scanner
+scanner.close();
+> Fecha o scanner no final do programa pra liberar memória. Boas práticas!
+
+-------------------------------------------------------------------------------------------------------------
+
+### 🧠 Dica de ouro:
+
+Se você fizer isso:
+int idade = scanner.nextInt();
+String nome = scanner.nextLine();
+
+⚠️ Vai dar ruim! O `nextInt()` deixa uma quebra de linha (Enter) pra trás. Pra evitar problema:
+
+int idade = scanner.nextInt();
+scanner.nextLine(); // <-- Limpador de Enter 🧼
+String nome = scanner.nextLine();
+
+-------------------------------------------------------------------------------------------------------------

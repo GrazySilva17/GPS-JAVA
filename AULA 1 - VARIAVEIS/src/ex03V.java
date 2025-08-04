@@ -1,4 +1,4 @@
-public class ex004 {
+public class ex03V {
     public static void main(String[] args) {
         gps meuGPS = new gps();
         int a = 10; 

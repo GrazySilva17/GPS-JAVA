@@ -1,4 +1,4 @@
-public class ex003 {
+public class ex02V {
     public static void main(String[] args) {
         String hobby = "Programar";
         char habilidade = 'S';

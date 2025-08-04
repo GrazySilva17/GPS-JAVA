@@ -1,7 +1,6 @@
 import java.util.Scanner;
-public class al001 {
+public class al01S {
     public static void main(String[] args) throws Exception {
-        gps meuGPS = new gps(); 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nome: ");
 

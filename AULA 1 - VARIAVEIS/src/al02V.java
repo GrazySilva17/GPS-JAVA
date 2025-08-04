@@ -1,4 +1,4 @@
-public class ex001 {
+public class al02V {
     public static void main(String[] args) throws Exception {
         String nome = "Grazyeli";
         int idade = 19;

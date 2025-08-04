@@ -1,4 +1,4 @@
-public class al001 {
+public class al01V {
     public static void main(String[] args) throws Exception {
         gps meuGPS = new gps(); 
         

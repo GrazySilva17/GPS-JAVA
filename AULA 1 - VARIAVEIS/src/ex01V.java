@@ -1,4 +1,4 @@
-public class ex002 {
+public class ex01V {
   public static void main(String[] args) {
     String produto = "Notebook";
     double valor = 2890.99;
