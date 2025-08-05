@@ -13,6 +13,11 @@ public class GPS {
     }
 }
 
+    public void linhas(int i, String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'linhas'");
+    }
+
 }
 
 
