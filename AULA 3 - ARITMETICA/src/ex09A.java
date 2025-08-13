@@ -1,4 +1,3 @@
-
 import java.util.Random;
 public class ex09A {
     public static void main(String[] args) throws InterruptedException {
@@ -14,19 +13,19 @@ public class ex09A {
             
             System.out.println("Você tem " + "<3 ".repeat(vidas) + "vidas");
             System.out.printf("Gerando novo valor aleatório");
-            NumAleatorio = rand.nextInt(10);
+            NumAleatorio = rand.nextInt(20);
             for (int i = 0; i < 3; i++) {
                 System.out.printf("...%d", i+1);
                 Thread.sleep(1000);
             }
             System.out.println("\nNúmero sorteado: " + NumAleatorio);
         
-            if (NumAleatorio > 5) {
+            if (NumAleatorio > 10) {
                 System.out.println("-> Você ganhou 1 vida!");
                 vidas++;
                 Thread.sleep(1000);
 
-            } else if (NumAleatorio <= 5) {
+            } else if (NumAleatorio <= 10) {
                 System.out.println("-> Você perdeu 1 vida!");
                 vidas--;
                 Thread.sleep(1000);

@@ -1,0 +1,103 @@
+
+## 📚 **AULA 2 — Operadores Aritméticos Combinados**
+
+### 🧪 **Exercício 1 — Conta bancária dinâmica**
+
+Crie um programa que simule um saldo bancário.
+O usuário deve informar quanto deseja **depositar** e depois quanto deseja **sacar**.
+Mostre o **saldo final**, utilizando operadores combinados (`+=` e `-=`).
+
+---
+
+### 💡 **Exercício 2 — Reajuste salarial**
+
+Peça ao usuário seu salário atual e o percentual de aumento.
+Calcule o novo salário utilizando operador combinado (`+=`) e exiba o valor atualizado.
+
+---
+
+## 📈 **AULA 3 — Incremento e Decremento**
+
+### ⏳ **Exercício 3 — Contador de cliques**
+
+Simule um contador que aumenta em 1 a cada vez que o usuário aperta ENTER.
+Permita que o usuário “clique” 3 vezes e, ao final, exiba quantos cliques foram registrados (use `++`).
+
+---
+
+### ❤️ **Exercício 4 — Sistema de vidas**
+
+Crie um programa onde o jogador começa com 3 vidas.
+Simule a perda de uma vida (com `--`), depois a recuperação de uma (com `++`).
+Mostre o total de vidas ao final.
+
+---
+
+### 🎲 **Exercício 5 — Rolagem de dados**
+
+O programa deve simular 5 rodadas onde o jogador "rola o dado" apertando ENTER.
+Use um contador (`++`) para contar quantas vezes o dado foi rolado.
+Mostre o total de rodadas no final.
+
+---
+
+## 🎯 **AULA 4 — Precedência de Operadores**
+
+### 🧠 **Exercício 6 — Teste de ordem**
+
+Faça um programa que calcule e exiba o resultado de uma expressão simples:
+`10 + 2 * 5`
+Depois, **explique no seu código** por que esse é o resultado, com base na ordem dos operadores.
+
+---
+
+### 🧩 **Exercício 7 — Parênteses fazem diferença**
+
+Mostre a diferença de resultado entre:
+
+* `(10 + 2) * 5`
+* `10 + 2 * 5`
+  Compare os dois valores e explique o motivo da diferença.
+
+---
+
+### 📏 **Exercício 8 — Expressão personalizada**
+
+Peça ao usuário três números A, B e C.
+Calcule a seguinte expressão:
+`A + B * (C - A) / 2`
+Mostre o resultado com explicação de como os operadores foram aplicados.
+
+---
+
+### 🎮 **Exercício 9 — Calculadora com expressão completa**
+
+Peça dois números ao usuário.
+Calcule a seguinte operação:
+`(x + y) * (x - y) / 2.0`
+Mostre o resultado com explicação sobre o uso dos parênteses e o `.0` na divisão.
+
+---
+
+## 💥 **MISTO — Todas as Aulas Juntas**
+
+### 🧮 **Exercício 10 — Estatísticas de jogador**
+
+Simule um jogo onde:
+
+* O jogador começa com 0 pontos e 100 moedas.
+* Ele informa quantos pontos ganhou.
+* Ele informa quantas moedas perdeu.
+* Depois, ele ganha +1 ponto e perde -1 moeda.
+  Mostre o resultado final usando operadores combinados, incremento/decremento e uma média com precedência de operadores.
+
+---
+
+### 🧮 **Exercício 11 — Sistema de bônus**
+
+O jogador começa com 50 de XP.
+Peça ao usuário quantas batalhas ele venceu e calcule o total de XP:
+
+* Cada vitória vale 10 XP.
+* Depois, ele ganha 1 XP bônus (use `++`).
+* Mostre o XP final e o nível (XP dividido por 30).
